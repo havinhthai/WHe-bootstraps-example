@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, user-scalable=0">
+
+    <title>WHe | Trang chủ</title>
+    <link rel="shortcut icon" href="imgs/logo.png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1255136224544301";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script> <!-- End FanPage Plugin -->
+
+
+    <header id="header">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="nav-container">
+                    <div class="navbar-header">
+                        <button class="navToggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="animateIcon(this)">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand ">
+                            <img src="imgs/logo.png " alt="my Logo" class="hidden-xs" style="width: 40px">
+                            <img src="imgs/logo.png" alt="logo" class="visible-xs-inline-block" style="display: none; position: absolute; bottom: 13px; width: 26px;left: 16px;">
+                        </a>
+                        <div class="searchBox navbar-left navbar-form" style="margin-top: 14px">
+                            <input type="text" id="searchInp" placeholder="Tên món ăn, tên quán,..." class="form-control">
+                            <span><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="pages/eat-page.html">Ăn gì?</a></li>
+                        <li><a href="pages/where-page.html">Ăn ở đâu?</a></li>
+                        <li><a href="pages/event-page.html">Sự kiện / giảm giá</a></li>
+                        <li><a href="pages/how-page.html" >Ăn ra sao?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="headerSlide">
+           <div class="headerContent container text-right">
+               <h3>WHe </h3>
+               <h4>Giải pháp cho mọi vấn đề ăn uống của bạn</h4>
+               <a href="#food" class="btn btn-lg">Tìm hiểu ngay</a>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container" id="food">
+            <h3 class="titlSession">ĂN GÌ?</h3>
+
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-01.jpg" alt="do an 1" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Cơm hột vịt muối Quảng Châu</strong>
+                            </a>
+                            <p>Trời lạnh là thèm ăn món gì chấm sốt thơm béo, cái nhớ ra món lòng gà cháy tỏi này...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-02.jpg" alt="do an 2" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Bánh nướng Phô mai Ý</strong>
+                            </a>
+                            <p>Chưa ăn tô này đã thấy no mất tiêu rồi, dâu tây, bơ đậu phộng đúng nhiều và chất lượng luôn....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-03.jpg" alt="do an 3" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Cá hấp hành</strong>
+                            </a>
+                            <p>Cá hấp hành đâu đâu cũng có, nhưng công thức ở đây rất đặc biệt, mùi cá vừa nồng lại chín tới, kèm với hành...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-04.jpg" alt="do an 4" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Pizza phô mai cà chua</strong>
+                            </a>
+                            <p>Phô mai chín tới kết hợp với hải sản, thập cẩm và các loại rau thì ngon không gì bằng...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row hidden-xs hidden-sm">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-05.jpg" alt="do an 5" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Kem dâu </strong>
+                            </a>
+                            <p>Mùa hè nóng bức được uống ly kem dâu được nhập từ vườn dâu Nhật Bản, mọi căng thẳng được giải tỏa...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-06.jpg" alt="do an 2" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Khoai tây chiên xã</strong>
+                            </a>
+                            <p>Khoai tây chính gốc trồng tại Đà Lạt được chiên qua dầu Quãng Ninh, sốt chung với hành...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-07.jpg" alt="do an 3" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Bánh mì kẹp ngũ quả</strong>
+                            </a>
+                            <p>Cam, chanh, ớt, xoài, sầu riêng là sự kết hợp hoàn hảo cho ai muốn thử cảm giác lạ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="pages/eat-article.html">
+                            <img src="imgs/main-food-08.jpg" alt="do an 4" class="img-responsive">
+                        </a>
+                        <div class="content">
+                            <a href="pages/eat-article.html" class="titlContent">
+                                <strong>Cá Basa kẹp khoai tây chiên</strong>
+                            </a>
+                            <p>Không chỉ lạ, món ăn này còn toát lên sự dũng mãnh của người ăn, thực sự đây là thử thách rất khó...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="pages/eat-page.html" class="btn btn-info pull-right" title="Xem thêm">Xem thêm</a>
+            <br>
+            <hr>
+        </section> <!------ End Session 1 Food ------->
+
+
+        <section class="container" id="restaurent">
+            <h3 class="titlSession">ĂN Ở ĐÂU?</h3>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 hidden-sm">
+                    <div class="thumbnail">
+                        <a href="pages/where-article.html">
+                            <img src="imgs/main-where-01.jpg" alt="nha hang 1" class="img-responsive">
+                        </a>
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tabInfo1">THÔNG TIN</a></li>
+                            <li><a data-toggle="tab" href="#menu1">THỰC ĐƠN</a></li>
+                            <li><a data-toggle="tab" href="#feedback1">ĐÁNH GIÁ</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tabInfo1" class="tab-pane fade in active">
+                                <a href="pages/where-article.html" class="titlContent">
+                                    <h4>Allen Coffee</h4>
+                                </a>
+
+                                <p>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Địa chỉ: <strong>Lô 16 Bình Minh 3, Quận Hải Châu, Thành Phố Đà Nẵng</strong>
+                                </p>
+                                <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    Giờ mở cửa: <strong>06:30h - 22:00h</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-tags" aria-hidden="true"></i>
+                                    Giá: <strong>21.000đ - 50.000đ</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    Điện thoại: <strong>0905 479 244</strong>
+                                </p>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <p>Về menu của quán, tuy không phải là quá đa dạng các loại đồ uống nhưng có một điều bạn có thể chắc chắn đó là chỉ một lần ghé quán và thưởng thức một, hai loại đồ uống ở đây thôi, bạn sẽ không còn cần phải nghĩ đến bất kỳ món đồ nào nữa đâu. Chủ yếu phục vụ thực khách với những ly cà phê sữa, cà phê đá hay nước ngọt, nước trái cây các loại cùng bánh ngọt, Allen Coffee luôn tự hào đem lại thương hiệu cho mình bởi chất lượng và hương thơm của các loại thức uống. Đồ uống của quán ngon, vừa uống đặc biệt nhiều nước uống pha chế công thức lạ, độc đáo, được tỷ mỷ chuẩn bị từng chi tiết nhỏ nhất để tách cà phê không chỉ thơm, ngon mà còn rất bắt mắt và ngộ nghĩnh nữa. </p>
+                            </div>
+                            <div id="feedback1" class="tab-pane fade">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <p>Đội ngũ nhân viên của quán hùng hậu bởi những con người trẻ tuổi, nhiệt tình phục vụ rất chu đáo hết trà là châm trà cho khách, quan tâm khách hàng nên bạn sẽ không phải đợi lâu mới có đồ uống nhé! </p>
+                            </div> <!-- Tabs -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 hidden-sm">
+                    <div class="thumbnail">
+                        <a href="pages/where-article.html">
+                            <img src="imgs/main-where-02.jpg" alt="nha hang 2" class="img-responsive">
+                        </a>
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tabInfo2">THÔNG TIN</a></li>
+                            <li><a data-toggle="tab" href="#menu2">THỰC ĐƠN</a></li>
+                            <li><a data-toggle="tab" href="#feedback2">ĐÁNH GIÁ</a></li>
+
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tabInfo2" class="tab-pane fade in active">
+                                <a href="pages/where-article.html" class="titlContent">
+                                    <h4>T+ Beer Club</h4>
+                                </a>
+
+                                <p>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Địa chỉ: <strong>98 Ngõ 97 Hoàng Cầu, Quận Đống Đa, Thành Phố Hà Nội</strong>
+                                </p>
+                                <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    Giờ mở cửa: <strong>08:00h - 00:00h</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-tags" aria-hidden="true"></i>
+                                    Giá: <strong>50.000đ - 200.000đ</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    Điện thoại: <strong>0986 998 958</strong>
+                                </p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <p>Thực đơn đa dạng, đặc sản của quán là Beer, rất đa dạng loại bia, ngon, nhiều mùi vị, màu sắc và đặc biệt là bia có nguồn gốc xuất xứ rõ ràng, mang lại cảm giác an toàn cho người uống. </p>
+                            </div>
+                            <div id="feedback2" class="tab-pane fade">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p>Xuyên suốt  không gian của T+ Beer Club là sự trẻ trung và độc đáo trong từng thiết kế, đúng chất teen không thể lẫn vào đâu. Không gian ấy là tổng hòa của sự sáng tạo đầy nghệ thuật: từ chiếc bàn được dựng lên từ những chiếc thùng phi to, màu sắc vui vẻ,… đến những tranh vẽ tường, tiểu cảnh, bụi chuối, đèn trang trí,… Tất cả đều mang đậm dấu ấn của nghệ thuật sắp đặt.</p>
+                            </div><!-- Tabs -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden-xs col-md-4">
+                    <div class="thumbnail">
+                        <a href="pages/where-article.html">
+                            <img src="imgs/main-where-03.jpg" alt="nha hang 3" class="img-responsive">
+                        </a>
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tabInfo3">THÔNG TIN</a></li>
+                            <li><a data-toggle="tab" href="#menu3">THỰC ĐƠN</a></li>
+                            <li><a data-toggle="tab" href="#feedback3">ĐÁNH GIÁ</a></li>
+
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tabInfo3" class="tab-pane fade in active">
+                                <a href="pages/where-article.html" class="titlContent">
+                                    <h4>Jirisan Restaurant</h4>
+                                </a>
+
+                                <p>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Địa chỉ: <strong>Tầng 4, Charmvit Tower, 117 Trần Duy Hưng, Quận Cầu Giấy, Thành Phố Hà Nội</strong>
+                                </p>
+                                <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    Giờ mở cửa: <strong>09:30h - 22:30h</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-tags" aria-hidden="true"></i>
+                                    Giá: <strong>150.000đ - 400.000đ</strong>
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    Điện thoại: <strong>0936 402 111</strong>
+                                </p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                                <p>Thực khách đến với Jirisan Restaurant sẽ được hòa mình vào đại tiệc nướng, lẩu, buffet của những món ăn Hàn Quốc thật độc đáo.</p>
+                                <p>Không chỉ có những món cay xè như tokbokki hay kim chi, kimbap mà Hàn Quốc còn là thiên đường của những món nướng đặc sắc.</p>
+                                <p>Những tín đồ món nướng xứ kim chi chắc chắn không thể nào quên được hương vị đậm đà khó tả của thịt nướng quyện với vị nước chấm chua chua ngọt ngọt, cay nhẹ ăn cùng những loại lá đặc trưng.</p>
+                            </div>
+                            <div id="feedback3" class="tab-pane fade">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <p>Với không gian đậm nét văn hóa Hàn Quốc thoáng đãng, nhẹ nhàng, mà vẫn tinh tế, hiện đại, Jirisan Restaurant là điểm đến thích hợp cho những giây phút ấm cúng, thú vị, hạnh phúc bên bạn bè, đồng nghiệp, những buổi tiệc sinh nhật gần gũi hay chiêu đãi, gặp gỡ khách hàng</p>
+                            </div><!-- Tabs -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="pages/where-page.html" class="btn btn-info pull-right" title="Xem thêm">Xem thêm</a>
+            <br>
+            <hr>
+        </section> <!------ End Session 2 Restaurant -------->
+
+
+        <section class="container" id="event">
+            <h3 class="titlSession">SỰ KIỆN / GIẢM GIÁ</h3>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="eventContent">
+                        <img src="imgs/main-event-01.jpg" alt="su kien 1" class="img-responsive">
+                        <div class="text-center">
+                            <div>Còn <span>2</span> ngày <span>12</span> giờ <span>59</span> phút <span class="countdown">59</span> giây</div>
+                            <a href="#eventModal1" class="btn btn-danger btn-lg" data-toggle="modal">Nhận ưu đãi</a>
+                        </div>
+                    </div>
+                    <div id="eventModal1" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="font-weight: bold">Giảm 50% mừng khai trương Nhà hàng</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <p>
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <strong>Thời gian:</strong> Từ 19/12/2016 đến 28/12/2016
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                        <strong>Ngành hàng:</strong> Ẩm thực khuya
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-warning" aria-hidden="true"></i>
+                                        <strong>Lưu ý:</strong> Tặng thêm ly sứ cho đơn hàng 400.000đ trở lên
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-money" aria-hidden="true"></i>
+                                        <strong>Mã giảm giá:</strong> <span>ANM87029</span>
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Modal-->
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="eventContent">
+                        <img src="imgs/main-event-02.jpg" alt="su kien 2" class="img-responsive">
+                        <div class="text-center">
+                            <div>Còn <span>0</span> ngày <span>4</span> giờ <span>11</span> phút <span class="countdown">59</span> giây</div>
+                            <a href="#eventModal1" class="btn btn-danger btn-lg" data-toggle="modal">Nhận ưu đãi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="eventContent">
+                        <img src="imgs/main-event-03.jpg" alt="su kien 3" class="img-responsive">
+                        <div class="text-center">
+                            <div>Còn <span>5</span> ngày <span>9</span> giờ <span>5</span> phút <span class="countdown">59</span> giây</div>
+                            <a href="#eventModal1" class="btn btn-danger btn-lg" data-toggle="modal">Nhận ưu đãi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="eventContent">
+                        <img src="imgs/main-event-04.jpg" alt="su kien 4" class="img-responsive">
+                        <div class="text-center">
+                            <div>Còn <span>7</span> ngày <span>3</span> giờ <span>1</span> phút <span class="countdown">59</span> giây</div>
+                            <a href="#eventModal1" class="btn btn-danger btn-lg" data-toggle="modal">Nhận ưu đãi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="pages/event-page.html" class="btn btn-info pull-right" title="Xem thêm">Xem thêm</a>
+            <br>
+            <hr>
+        </section> <!--------- End Session 3 Event --------->
+
+
+        <section class="container" id="how">
+            <h3 class="titlSession">ĂN NHƯ THẾ NÀO?</h3>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="newsTop">
+                        <a href="pages/how-article.html">
+                            <img src="imgs/main-how-01.jpg" alt="img how 1" class="img-responsive">
+                        </a>
+                        <div>
+                            <a href="pages/how-article.html" class="titlContent" style="color: #fff">
+                                <p style="margin-top: 10px"><strong>4 phương pháp giảm cân nhanh và cấp tốc</strong></p>
+                            </a>
+                            <small>Làm sao để giảm trọng lượng cơ thể một cách nhanh chóng có phải là những gì bạn đang tìm kiếm? Tham khảo và áp dụng ngay một trong 4 phương pháp giảm cân cấp tốc ở dưới đây...</small>
+                        </div>
+                    </div> <!-- End news Top -->
+
+                    <div class="newsNormal mgTop15">
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-10.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Chế độ ăn giảm cân nhanh nhất trong 3 ngày giảm tới 3kg</strong></p>
+                                    <small class="pull-right">31/12/2016</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 1 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-11.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Giảm cân nhanh với bí đao – Công thức siêu đơn giản</strong></p>
+                                    <small class="pull-right">29/12/2016</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 2 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-12.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>4 lời khuyên Vàng giúp bạn giảm cân thành công</strong></p>
+                                    <small class="pull-right">27/12/2016</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 3 -->
+                    </div>
+                </div> <!-- End Giam can -->
+
+                <div class="col-md-4">
+                    <div class="newsTop">
+                        <a href="pages/how-article.html">
+                            <img src="imgs/main-how-02.jpg" alt="img how 1" class="img-responsive">
+                        </a>
+                        <div>
+                            <a href="pages/how-article.html" class="titlContent" style="color: #fff">
+                                <p style="margin-top: 10px"><strong>7 bí quyết vàng giúp tăng cân nhanh thành công</strong></p>
+                            </a>
+                            <small>Bạn có thể tăng từ 3 - 5kg trong 1 tháng là điều có thể, rất nhiều người đã thành công khi thực hiện nghiêm túc kế hoạch tăng cân và đạt được cân nặng như mong muốn.</small>
+                        </div>
+                    </div>
+
+                    <div class="newsNormal mgTop15">
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-07.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Tổng Hợp Những Thực Phẩm Tăng Cân Nhanh</strong></p>
+                                    <small class="pull-right">05/01/2017</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 1 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-08.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Tăng Nhanh 2kg Trong Tuần Không Cần Uống Thuốc</strong></p>
+                                    <small class="pull-right">04/01/2017</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 2 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-09.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Chia Sẻ Nhật Ký Tăng Cân Nhanh</strong></p>
+                                    <small class="pull-right">04/01/2017</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 3 -->
+                    </div> <!-- End tang can -->
+                </div>
+
+                <div class="col-md-4">
+                    <div class="newsTop">
+                        <a href="pages/how-article.html">
+                            <img src="imgs/main-how-03.jpg" alt="img how 1" class="img-responsive">
+                        </a>
+                        <div>
+                            <a href="pages/how-article.html" class="titlContent" style="color: #fff">
+                                <p style="margin-top: 10px"><strong>Giờ ăn nào là "chuẩn" cho các bữa trong ngày?</strong></p>
+                            </a>
+                            <small>Các chuyên gia dinh dưỡng khuyến nghị mọi người nên ăn đúng giờ để đảm bảo sức khỏe, bởi khi đó, hệ tiêu hóa sẽ làm việc hiệu quả hơn và cơ thể dung nạp chất dinh dưỡng tốt nhất.</small>
+                        </div>
+                    </div>
+
+                    <div class="newsNormal mgTop15">
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-06.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Ăn như thế nào để hiệu quả?</strong></p>
+                                    <small class="pull-right">09/01/2017</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 1 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-04.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Rau xanh và những công dụng không thể ngờ</strong></p>
+                                    <small class="pull-right">04/01/2017</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 2 -->
+
+                        <div class="row mgTop15">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="pages/how-article.html">
+                                    <img src="imgs/main-how-05.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-8 col-md-8">
+                                <a href="pages/how-article.html" class="titlContent">
+                                    <p><strong>Ăn uống giờ giấc mang lại hiệu quả làm việc tốt hơn</strong></p>
+                                    <small class="pull-right">19/12/2016</small>
+                                </a>
+                            </div>
+                        </div> <!-- News 3 -->
+                    </div> <!-- End tang can -->
+                </div>
+            </div>
+
+            <a href="pages/how-page.html" class="btn btn-info pull-right mgTop15">Xem thêm</a>
+            <br>
+            <br>
+            <hr>
+        </section> <!--------- End Session 4 How --------->
+    </main>
+
+
+    <div class="beforeFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3><label>Fanpage của WHe</label></h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/FoodyVietnam/" data-small-header="false"
+                         data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-width="500" data-height="70">
+                        <blockquote cite="https://www.facebook.com/FoodyVietnam/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/FoodyVietnam/">Foody.vn</a>
+                        </blockquote>
+                    </div> <!-- FanPage Plugin -->
+                </div>
+                <div class="col-md-7">
+                    <div class="givenEmail form-group">
+                        <h3><label for="givenEmail">Đăng ký nhận tin</label></h3>
+                        <input type="email" id="givenEmail" class="form-control" placeholder="Địa chỉ Email của bạn">
+                        <a href="#" class="btn btn-success">Xác nhận</a>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="moreInfo">
+                                <h3 class="mgTop0"><label>WHe.com.vn</label></h3>
+                                <ul class="list-unstyled list-inline">
+                                    <li><a href="index.html">Trang chủ</a></li>
+                                    <li><a href="pages/intro.html">Giới thiệu</a></li>
+                                    <li><a href="pages/how-page.html">Blog</a></li>
+                                    <li><a href="pages/contact.html">Liên hệ</a></li>
+                                </ul>
+                                <ul class="list-inline list-unstyled">
+                                    <li><a href="#">Điều khoản</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="socialBtn">
+                                <h3 class="mgTop0"><label>Mạng xã hội</label></h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li><a href="https://www.facebook.com/softechaptech/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCxNzsapkket0deJe_R1rIGA" target="_blank"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p >Copyright &copy; by <a href="https://aptech-danang.edu.vn/">Aptech Danang</a> 2016</p>
+        </div>
+    </footer>
+
+    <div id="feather" class="text-center">
+        <a href="pages/map.html">Tìm<br>quán</a>
+    </div>
+
+    <a href="#header" id="goUp" title="Lên đầu trang">
+        <img src="imgs/up.png" alt="goUp" class="img-responsive">
+    </a>
+
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
